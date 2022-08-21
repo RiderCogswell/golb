@@ -65,3 +65,7 @@ blockquote {
 	margin: 0px;
 	font-style: italic;
 }
+
+::selection {
+  background: aquamarine;
+}

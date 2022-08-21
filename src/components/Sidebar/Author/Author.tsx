@@ -15,6 +15,14 @@ const Author = ({  author }: Props) => (
     <Link to='/'>
       <img alt={author.name} src='author.photo' />
     </Link>
+
+    <h1>
+      <Link to='/'>
+        {author.name}
+      </Link>
+    </h1>
+
+    <p>{author.bio}</p>
   </div>
 );
 
